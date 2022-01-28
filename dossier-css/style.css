@@ -1,17 +1,36 @@
+.navbar_bg{
+    padding: 20px;
+}
 img{
     width: 80px;
     height: 80px;
-    margin-bottom: 40px;
-
-}
-.serv{
-    background: rgba(22, 82, 196, 0.747);
-    border-radius: 30px;
-    margin-bottom: 40px;
-
-}
-.para {
-   margin-bottom: 40px;
-   margin-left: 1440px;
-}
    
+}
+.container_button {
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    background: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+.row{
+    background-image: url("../dossier-image/home-bg-4dc4b66b752c785811e5c6b1d3df1f90b953d05e0ff367ff34f8823f34a0036a.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.container-fluid{
+   float: left;
+}
+.navbar_bg{
+    background: ghostwhite;
+}
+
+
+
+
+ 

@@ -10,44 +10,56 @@
     <link rel="stylesheet" href="../dossier-css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand" href="#">
-            <img src="../dossier-image/yoojo-youpijob-logo-6d1d84b30119db7533bb892d772c34d5ef9c6885a97c0b6643b697684d1df5eb.svg" alt="">
-        </a>
-        <div>
-            <div class="serv">
-                <ul class="navbar-brand">
-                    <li class="navbar-brand">
-                        <a class="navbar-brand" href="#">Demander un service</a>
-                    </li>
-                </ul>
+    <div class="row">
+        <div class="navbar_bg">
+            <div class="container_icon">
+                <a href=""><img src="../dossier-image/yoojo-youpijob-logo-6d1d84b30119db7533bb892d772c34d5ef9c6885a97c0b6643b697684d1df5eb.svg" alt=""></a>
             </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="para">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Devenir jobber</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Connexion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inscription</a>
-                    </li>
-                </ul>
+            <div class="container_button">
+                <h>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                      </svg>
+                    Demander un service
+                </h>
             </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-whith">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" aria-current="page" href="#">Devenir jobber</a>
+                            <a class="nav-link" href="#">Connexion</a>
+                            <a class="nav-link" href="#">Inscription</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-    </nav>
-    <section id="face" class="container-fluid">
-        <div class="face" >
-           <button type="button" class="btn btn-danger">Nouveau</button>
-           <p>Payez en ticket CESU</p>
-           <h>Trouvez le prestataire idéal <br>
-            pour tous les services du <br>
-            quotidien
-           </h>
-        </div>
-    </section>
-    
+        <section id="face">
+            <div class="container">
+                <h>
+                    <a href="#" class="button-1">Nouveau</a>
+                    Payez en ticker CESU
+                </h>
+                <h1>Trouvez le prestataire idéal <br>
+                   pour tous les services du <br>
+                   quotidien
+                </h1>
+            </div>
+            <div class="input-group">
+                <div class="form-outline">
+                  <input type="search" id="form1" class="form-control" />
+                  <label class="form-label" for="form1">Search</label>
+                </div>
+                <button type="button" class="btn btn-primary">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+        </section>
+    </div>
 </body>
 </html>
